@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Here, at Happy Garden, we believe that even the smallest seed can grow into a great tree! From planniing to realization, we'll create the garden of your dreams."/>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Happy Garden home page</title>
+    <script
+      src="https://kit.fontawesome.com/8601036ebb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="popup-box" id="popupBox" style="display:none">
+      <div class="popup-text-box">
+        <p class="p-text p-big p-bold p-center">Thank you</p>
+        <p class="p-text p-bold p-center">for subsribing to our newsletter</p>
+      </div>
+      <div class="popup-picture-box">
+        <img src="https://img.freepik.com/free-vector/sprout-concept-illustration_114360-6725.jpg?w=826&t=st=1672750598~exp=1672751198~hmac=c1d6374baf484738b1070adaf1f034b47f790045525733c257cabeab61e56002" alt="Woman planting a small houseplant">
+      </div>
+      <div class="popup-button-box">
+      <button type="button" class="button-like" id="popupButton"><i class="fa-sharp fa-solid fa-x"></i></button>
+      </div>
+    </div>
+    <header>
+      <nav class="navbar-container">
+        <div class="navbar-logo-box">
+          <a href="#" class="logo">HappyGarden</a>
+        </div>
+        <ul class="links-list">
+          <li><a href="#sectionHero">Home</a></li>
+          <li><a href="#sectionAbout">About</a></li>
+          <li><a href="#sectionProjects">Projects</a></li>
+          <li><a href="#sectionService">Services</a></li>
+          <li><a href="#sectionForm">Contact us</a></li>
+        </ul>
+        <button type="button" class="button-icon-mobile" id="buttonMobile">
+          <i class="fa-solid fa-bars fa-3x"></i>
+        </button>
+        <ul
+          class="links-list-mobile"
+          id="linksListMobile"
+          style="display: none"
+        >
+          <li><a href="#sectionHero">Home</a></li>
+          <li><a href="#sectionAbout">About</a></li>
+          <li><a href="#sectionProjects">Projects</a></li>
+          <li><a href="#sectionService">Services</a></li>
+          <li><a href="#sectionform">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero" id="sectionHero">
+        <img
+          src="https://img.freepik.com/darmowe-zdjecie/woda-deszczowa-na-makro-zielony-lisc_1150-12802.jpg?w=1380&t=st=1671524889~exp=1671525489~hmac=54365c1c9989aad3939d3605abcc1c4b2f7b463a76471417847fa34d8a86c79b"
+          alt="Green leaves with raindrops"
+          style="display: none"
+          class="carousel-photo copy-1"
+          id="photo-1"
+        />
+        <img
+          src="https://img.freepik.com/darmowe-zdjecie/woda-deszczowa-na-makro-zielony-lisc_1150-12802.jpg?w=1380&t=st=1671524889~exp=1671525489~hmac=54365c1c9989aad3939d3605abcc1c4b2f7b463a76471417847fa34d8a86c79b"
+          alt="Green leaves with raindrops"
+          style="display: block"
+          class="carousel-photo"
+          id="photo-1"
+        />
+        <img
+          src="https://img.freepik.com/free-photo/green-leaf-texture-leaf-texture-background_501050-120.jpg?w=996&t=st=1671716276~exp=1671716876~hmac=387c1eeff6d5f6b1addbce5748db8efc9ac4b8131e987baf95da5ab3c0be4f93"
+          alt="Green garden plant"
+          style="display: none"
+          class="carousel-photo"
+          id="photo-2"
+        />
+        <img
+          src="https://img.freepik.com/free-photo/closeup-shot-small-green-leaves-bush_181624-30311.jpg?w=996&t=st=1671716344~exp=1671716944~hmac=392e8d1eb7a3cba963756b53a8ff694cbd55fa58c0ae641cc3413f927a23c992"
+          alt="Green hedge"
+          style="display: none"
+          class="carousel-photo"
+          id="photo-3"
+        />
+        <h1 class="h1-text absolute-text white-text">
+          Your garden <br />
+          our passion
+        </h1>
+        <div class="carousel-console-container">  
+          <div
+            class="carousel-console-text-box copy-1"
+            style="display: none"
+          >
+            <p class="p-text">Landscaping</p>
+            <p class="p-text p-small">For private owners and developers.</p>
+          </div>
+          <div
+            class="carousel-console-text-box"
+            style="display: block"
+          >
+            <p class="p-text">Landscaping</p>
+            <p class="p-text p-small">For private owners and developers.</p>
+          </div>
+          <div
+            class="carousel-console-text-box"
+            style="display: none"
+          >
+            <p class="p-text">Gardening services</p>
+            <p class="p-text p-small">For gardens of all sizes</p>
+          </div>
+          <div
+            class="carousel-console-text-box"
+            style="display: none"
+          >
+            <p class="p-text">Garden design</p>
+            <p class="p-text p-small">For public and private space.</p>
+          </div>
+          <div class="carousel-console-buttons-box">
+            <button class="button-carousel" id="buttonCarouselBack">
+              <i class="fa-sharp fa-solid fa-arrow-left"></i> Back
+            </button>
+            <button class="button-carousel" id="buttonCarouselNext">
+              Next
+              <i class="fa-sharp fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section-reputation padding-XL mb-XXL" id="sectionReputation">
+        <h2 class="h2-text padding-XL">Our reputation</h2>
+        <div class="reputation-container">
+          <div class="reputation-item-box">
+            <div class="reputation-picture-box">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1253/1253735.png?w=826&t=st=1671528740~exp=1671529340~hmac=8696a401bea0dfb0f7d4ca9794ec35227be83f1d33bf3e72e60a9ab8536db892"
+                alt="Gardenia's team"
+              />
+            </div>
+            <p class="p-text">Best team</p>
+            <p class="p-text p-small">
+              We hire 0nly the best professional gardeners and deigners...
+            </p>
+          </div>
+          <div class="reputation-item-box">
+            <div class="reputation-picture-box">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/809/809102.png?w=826&t=st=1671529046~exp=1671529646~hmac=1561f0ede25e934b1d1dfb0d5c70d90c52f4b651ac384eee82a734ccfd7335ba"
+                alt="Gardenia's gardening service"
+              />
+            </div>
+            <p class="p-text">Best design</p>
+            <p class="p-text p-small">
+              ... who are passionate and creative in drawing plans...
+            </p>
+          </div>
+          <div class="reputation-item-box">
+            <div class="reputation-picture-box">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1245/1245140.png?w=826&t=st=1671529135~exp=1671529735~hmac=e378cf6fd817c0ef657b3e25ea30b4b3f1494bdc84df158c8ee1470ad5e352b8"
+                alt="Gardenia's garden design"
+              />
+            </div>
+            <p class="p-text">Best realisation</p>
+            <p class="p-text p-small">
+              ... and are not afair of getting their gands dirty with soil!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-about padding-XL" id="sectionAbout">
+        <div class="about-picture-box">
+          <img
+            src="https://img.freepik.com/darmowe-zdjecie/szczesliwy-mlody-przystojny-ogrodnik-slowianski-w-mundurze-i-kapeluszu-trzymajac-kwiat-i-sekatory-patrzac-na-bialym-tle_141793-68627.jpg?w=1060&t=st=1671529544~exp=1671530144~hmac=43b817007be1b5eb6a15b30631d7403f690ad59858888a8384bd681ee7ab95d0"
+            alt="Gardener holding plants"
+          />
+        </div>
+        <div class="about-text-box">
+          <h3 class="h3-text">About us</h3>
+          <p class="p-small mb-XL">
+            We are a company that unites professional gardeners and landscape
+            architectsś who work together to create the garden of your dreams!
+          </p>
+          <p class="p-small mb-XL">
+            Are you a developer or a private garden owner? Do you want to build
+            a city park, or upgrade yośur backyard? We work with projects of all
+            sizes and budgets!
+          </p>
+          <p class="p-small mb-XXL">
+            No matter if you're a plant lover or you want your plants to be
+            (almost) self-sufficient - we'll prepare a project that fits your
+            style, needs and the amount of time you're willing to spend on
+            tending your garden.
+          </p>
+          <button class="button-about">Learn more</button>
+        </div>
+      </section>
+      <section class="section-services padding-XL c-green" id="sectionService">
+        <h2 class="h2-text white-text">Our Services</h2>
+        <div class="services-container">
+          <div class="service-box">
+            <div class="service-picture-box mb-XL">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1254/1254022.png?w=826&t=st=1671531589~exp=1671532189~hmac=d4203c88020166c82321eb810f7bd3f48fc7807658c68179d17635829368c9db"
+                alt="Happy Garden services - landscaping"
+              />
+            </div>
+            <h4 class="h3-text h3-smaller">Landscaping</h4>
+          </div>
+          <div class="service-box">
+            <div class="service-picture-box mb-XL">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/25/25603.png?w=826&t=st=1671531633~exp=1671532233~hmac=1fab83087bddf74f030f404fb86abb194678b4c4a576be9bfa0da32f7b48eb0e"
+                alt="Happy Garden services - tree planting"
+              />
+            </div>
+            <h3 class="h3-text h3-smaller">Tree planting</h3>
+          </div>
+          <div class="service-box">
+            <div class="service-picture-box mb-XL">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/991/991927.png?w=826&t=st=1671531725~exp=1671532325~hmac=208806c79fe8c2d1904ec71074dbfc33e7716b49ebcea301e65d4b64a80de2f7"
+                alt="Happy Garden services - installing irigation systems"
+              />
+            </div>
+            <h3 class="h3-text h3-smaller">Irigation systems</h3>
+          </div>
+          <div class="service-box">
+            <div class="service-picture-box mb-XL">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1073/1073866.png?w=826&t=st=1671531800~exp=1671532400~hmac=038a3d25d6f15bb6c0a436c7f5bcf282ab48709daf50d7a3f529e66a03858e76"
+                alt="Happy Garden services - plant engineering"
+              />
+            </div>
+            <h3 class="h3-text h3-smaller">Plant engineering</h3>
+          </div>
+          <div class="service-box">
+            <div class="service-picture-box mb-XL">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1073/1073884.png?w=826&t=st=1671531833~exp=1671532433~hmac=ed8b6a464e996d5eaa2fa9b67770fb2a982a259da9d085ca7b4db9baa9578052"
+                alt="Happy Garden services - gardening"
+              />
+            </div>
+            <h3 class="h3-text h3-smaller">Gardening</h3>
+          </div>
+          <div class="service-box">
+            <div class="service-picture-box mb-XL">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1073/1073867.png?w=826&t=st=1671531874~exp=1671532474~hmac=a7c447833ee9f9964c6537bcffc01d90496b1146fa65df7f1700f3211dbd8ffa"
+                alt="Happy Garden services - propagating plants"
+              />
+            </div>
+            <h3 class="h3-text h3-smaller">Propagating</h3>
+          </div>
+        </div>
+      </section>
+      <section class="section-experience padding-XXL mb-XXL" id="sectionExperience">
+        <div class="experience-graphics-container">
+          <div class="experience-graphics-box experience-box-1">
+            <div class="experience-icon-box experience-icon-1">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1200/1200706.png?w=826&t=st=1672139713~exp=1672140313~hmac=5d8eaf625ef525b1dc9ce08c3f1201e212b5b70f6448f4233522046be8ee2df5"
+                alt="HappyGarden's awards"
+              />
+            </div>
+            <p class="p-big mb-XL">546</p>
+            <p class="p-medium left-border-text">Awards won</p>
+          </div>
+          <div class="experience-graphics-box experience-box-2">
+            <div class="experience-icon-box experience-icon-2">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/989/989004.png?w=826&t=st=1672139824~exp=1672140424~hmac=f305f71921da1c611a6cdae1c2f467c7c571bd8d12a6591fdf808da1a93f10c8"
+                alt="HappyGarden's clients"
+              />
+            </div>
+            <p class="p-big mb-XL">1467</p>
+            <p class="p-medium left-border-text">Happy clients</p>
+          </div>
+          <div class="experience-graphics-box experience-box-3">
+            <div class="experience-icon-box experience-icon-3">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/667/667174.png?w=826&t=st=1672139923~exp=1672140523~hmac=d1b72ad0e8d33d4b84ba8608a638e69048bf0cedd9ca7a13d18270fc93d7453b"
+                alt="HappyGarden's planted trees"
+              />
+            </div>
+            <p class="p-big mb-XL">33.623</p>
+            <p class="p-medium left-border-text">Planted trees</p>
+          </div>
+          <div class="experience-graphics-box experience-box-4">
+            <div class="experience-icon-box experience-icon-4">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1253/1253760.png?w=826&t=st=1672140111~exp=1672140711~hmac=2189c2046ead26728130e23a34d3c3bc5dc1806dcf15a3b34cbca9298f68727f"
+                alt="HappyGarden's team of professionals"
+              />
+            </div>
+            <p class="p-big mb-XL">346</p>
+            <p class="p-medium left-border-text">Crew members</p>
+          </div>
+        </div>
+        <div class="experience-text-box">
+          <h2 class="h2-text mb-XXL">30 years<br />experience</h2>
+          <p class="p-text mb-XXL">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad tempore
+            quisquam id consequuntur, ullam modi.
+          </p>
+          <button type="button" class="button-experience">Contact us</button>
+        </div>
+      </section>
+      <section class="section-consultation padding-XXL mb-XXL" id="sctionConsultation">
+        <div class="consultation-picture-box">
+          <img
+            src="https://img.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg?w=1380&t=st=1672226946~exp=1672227546~hmac=0f07e84370b311106c2b1faaf68392b98d10d944c15ea2331e7a7212c2ab0c8a"
+            alt="Tropical leaves."
+          />
+        </div>
+        <p class="p-text white-text p-bold mb-XXL">
+          Free consultation with exceptional quality<br /><br />Just a call away
+        </p>
+        <button type="button">Get your consultation</button>
+      </section>
+      <section class="section-projects mb-XXL" id="sectionProjects">
+        <h2 class="h2-text mb-XXL">Projects</h2>
+        <div class="projects-container">
+          <div class="project-button-box mb-XXL">
+            <button
+              type="button"
+              class="project-button button-like"
+              id="buttonResidential"
+            >
+              Residential
+            </button>
+            <button
+              type="button"
+              class="project-button button-like"
+              id="buttonCommercial"
+            >
+              Commercial
+            </button>
+            <button
+              type="button"
+              class="project-button button-like"
+              id="buttonOther"
+            >
+              Other
+            </button>
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+          </div>
+          <div
+            class="projects-picture-container"
+            id="residentialProjects"
+            style="display: flex"
+          >
+            <div class="project-picture-box">
+              <img
+                src="https://img.freepik.com/darmowe-zdjecie/kolorowy-kwiat-w-ogrodzie_1373-544.jpg?w=1380&t=st=1672309933~exp=1672310533~hmac=e9e8cc44b41fd77fc78ce62a79f93f07dcda9a928c8a02376df07718050b26b2"
+                alt="Stone garden path with steps"
+              />
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Stone garden path, private owner</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img
+                src="https://img.freepik.com/darmowe-zdjecie/szklana-szklarnia_53876-30188.jpg?w=1380&t=st=1672310315~exp=1672310915~hmac=b0d47461899b89dc0eb85be8fa30e11a9f7773a56e7a4fb4bca07f994cca860a"
+                alt="Greenhouse in the garden"
+              />
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Little grenhouse, private owner</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img
+                src="https://img.freepik.com/darmowe-zdjecie/sciezka_74190-2125.jpg?w=1380&t=st=1672310393~exp=1672310993~hmac=f20b0b4f177c24cfa45651a9542a2170c03716d24789784070e9bff29686b3d6"
+                alt="Garden path full of flowers"
+              />
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Garden path, private owner</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img
+                src="https://img.freepik.com/free-photo/china-old-garden_1127-3642.jpg?w=1380&t=st=1672491384~exp=1672491984~hmac=fd4e23baefdebe4cf879c14db9f0852dd10c530ad1ffaa537a9dbb4c7c9894c0"
+                alt="A beautiful pond with a fountain and flowers"
+              />
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Pond with fountain, private owner</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="projects-picture-container"
+            id="commercialProjects"
+            style="display: none"
+          >
+            <div class="project-picture-box">
+              <img
+                src="https://img.freepik.com/darmowe-zdjecie/piekny-nowoczesny-dom-w-cementie-widok-z-ogrodu_1127-3209.jpg?w=1380&t=st=1672310423~exp=1672311023~hmac=b66a79f60f30f5ec315272a3dccbebd85f20fada07847dc2fa2d54dab62d784f"
+                alt="Green neighbourhood"
+              />
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Community park, Grudziądz</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img
+                src="https://img.freepik.com/darmowe-zdjecie/kwiaty-ogrodowe-ogrod-mae-fah-luang-zlokalizuj-na-doi-tung-w-chiang-rai-w-tajlandii_335224-968.jpg?w=1380&t=st=1672310612~exp=1672311212~hmac=0708f5144da78e1ff470f46041db0e1c1728ea4c8dd83d3e0fd9df5104cfb4da"
+                alt="A garden full of flowers"
+              />
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Flower public park, Gdańsk</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img
+                src="https://img.freepik.com/darmowe-zdjecie/park-z-drewnianym-sciezki-i-lawki_1137-254.jpg?w=1380&t=st=1672310653~exp=1672311253~hmac=19eb07540d105e6c11d80c9aa5adbf211e6d6418d584fef268a6348840913712"
+                alt="A park with benches and a patch"
+              />
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Public Park, Szymbark</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img
+                src="https://img.freepik.com/darmowe-zdjecie/wschod-slonca-w-pieknym-parku_1127-2834.jpg?w=1380&t=st=1672310708~exp=1672311308~hmac=68b8f5d6c56a548a09fd2d06ec4ec0a0dfe372e0727e55f23895a015d675be3b"
+                alt="A patch in a park"
+              />
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Community park, Gniezno</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="projects-picture-container"
+            id="otherProjects"
+            style="display: none"
+          >
+            <div class="project-picture-box">
+              <img src="https://img.freepik.com/free-photo/beautiful-japanese-garden_23-2149359701.jpg?w=1380&t=st=1672490360~exp=1672490960~hmac=cdf1ed6259d31a55d629a6d1ec6a5346efa609371c09edc4ee54bc2a8b4aadad" alt="Zen Garden">
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Zen garden, Klub Zen Polesie</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img src="https://img.freepik.com/free-photo/outdoor-patio-decoration-with-char-table_74190-6666.jpg?w=1380&t=st=1672490431~exp=1672491031~hmac=2f59130b3d8b00171f25295b43d369f12716c2fe191485bcf39a35539d70ea15" alt="Roof garden">
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Roof garden, private owner</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img src="https://img.freepik.com/free-photo/chinese-garden-n-zurich_1112-1146.jpg?w=1380&t=st=1672490542~exp=1672491142~hmac=307dd51e29587d6f56a021c9f7e7c9409df39ea784f8da1174f068f0747737d7" alt="Japanese garden">
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Japanese garden, Milno Karate School</p>
+              </div>
+            </div>
+            <div class="project-picture-box">
+              <img src="https://img.freepik.com/free-photo/footpath-beautiful-arch-flowers-plants_181624-16890.jpg?w=1380&t=st=1672490567~exp=1672491167~hmac=b7811bcf0fe0d8c8b28a9d7c10c8a4410389d0c75a90f6f54b97ca14e4372ffa" alt="Patch under flower arch">
+              <div class="picture-desription-box">
+                <p class="p-small white-text">Botanic Garden, London</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-form padding-XL c-green mb-XXL" id="sectionForm">
+        <h3 class="h3-text mb-XXL white-text">What can we do for you?</h3>
+        <form class="form-box">
+          <p class="p-text p-text-center white-text mb-XXL">
+            We are ready to work on a project of any complexity, whether it's
+            commercial or residential
+          </p>
+          <div class="form-contact mb-XXL">
+            <div class="input-box">
+              <input
+                type="text"
+                class="input-contact-form input-validate"
+                id="input-1"
+                placeholder="Name"
+                required
+              />
+              <p class="error-text" style="display: none" id="error-1">
+                This field is required
+              </p>
+            </div>
+            <div class="input-box">
+              <input
+                type="text"
+                class="input-contact-form input-validate"
+                id="input-2"
+                placeholder="Email"
+                required
+              />
+              <p class="error-text" style="display: none" id="error-2">
+                This field is required
+              </p>
+            </div>
+            <div class="input-box">
+              <select class="input-contact-form select-validate" id="select-1">
+                <option value="">Reason for contacting</option>
+                <option value="1">Reason 1</option>
+                <option value="2">Reason 2</option>
+                <option value="3">Reason 3</option>
+                <option value="4">Reason 4</option>
+              </select>
+              <p class="error-text" style="display: none" id="selectError-1">
+                This field is required
+              </p>
+            </div>
+            <div class="input-box">
+              <input type="text" class="input-contact-form input-validate" id="input-3" placeholder="Phone" />
+              <p class="error-text" style="display: none" id="error-3">
+                This field is required
+              </p>
+            </div>
+            <textarea
+              placeholder="Message"
+              class="input-contact-form textarea-form"
+            ></textarea>
+          </div>
+          <button type="button" class="button-contact-form" id="buttonForm">
+            Sumbit
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container padding-XL">
+        <div class="company-box">
+          <div class="footer-logo-box mb-XL">
+            <a class="logo p-bold">HappyGarden</a>             
+          </div>
+          <div class="company-description-box mb-XXL">
+            <div class="grid-col">
+            <p class="p-small p-bold">Address</p>
+            <p class="p-small p-bold">Phone</p>
+            <p class="p-small p-bold">Email</p>
+            </div>
+            <div class="grid-col">
+              <p class="p-small p-bold">Warszawska Street 2/45</p>
+              <p class="p-small p-bold">34-765 Warszawa</p>
+              <p class="p-small p-bold">contact@happygarden.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="media-box">
+          <div class="newsletter-box">
+            <p class="p-text p-bold">Newsletter</p>
+            <div class="newsletter-button-box">
+              <div class="input-box mb-XL">
+                <input type="text" class="input-newsletter" id="inputNewsletter" placeholder="Mail" >
+                <p class="error-text" style="display: none" id="errorNewsletter">
+                  This field is required
+                </p>
+              </div>
+              <button type="button" class="button-newsletter" id="buttonNewsletter">Subscribe</button>
+            </div>
+            <div class="social-media-box">
+              <a href="#" rel="nofollow"><i class="fa-brands fa-facebook fa-2x"></i></a>
+              <a href="#" rel="nofollow"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+              <a href="#" rel="nofollow"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right-box">
+        <p class="p-text p-small">Copyright 2022</p>
+    </footer>
+
+    <script>
+      // NAV MOBILE
+      const buttonMobile = document.querySelector("#buttonMobile");
+      const linksListMobile = document.querySelector("#linksListMobile");
+
+      buttonMobile.addEventListener("click", () => {
+        linksListMobile.style.display === "none"
+          ? (linksListMobile.style.display = "block")
+          : (linksListMobile.style.display = "none");
+      });
+
+      // CAROUSEL
+
+      const slidesList = document.querySelectorAll(".carousel-photo");
+      const buttonNext = document.querySelector("#buttonCarouselNext");
+      const buttonBack = document.querySelector("#buttonCarouselBack");
+      const slidesLength = slidesList.length;
+      const slidesCount = slidesLength - 1;
+      const textsList = document.querySelectorAll(".carousel-console-text-box") 
+ 
+      const moveSlides = (type) => {
+        if (type === "next") {
+          for (let i = 1; i < slidesLength; i++) {
+            if (slidesList[i].style.display === "block") {
+              slidesList[i].style.display = "none";
+              slidesList[i + 1].style.display = "block";
+              i++;
+            } else if (slidesList[slidesCount].style.display === "block") {
+              slidesList[slidesCount].style.display = "none";
+              slidesList[1].style.display = "block";
+            }
+          }
+        } else if (type === "back") {
+          for (let i = 1; i < slidesLength; i++) {
+            if (slidesList[i].style.display === "block") {
+              slidesList[i].style.display = "none";
+              slidesList[i - 1].style.display = "block";
+            }
+          }
+          if (slidesList[0].style.display === "block") {
+            slidesList[0].style.display = "none";
+            slidesList[slidesCount].style.display = "block";
+          }
+        }
+      };
+
+      const moveTexts = (type) => {
+        if (type === "next") {
+          for (let i = 1; i < slidesLength; i++) {
+            if (textsList[i].style.display === "block") {
+              textsList[i].style.display = "none";
+              textsList[i + 1].style.display = "block";
+              i++;
+            } else if (textsList[slidesCount].style.display === "block") {
+              textsList[slidesCount].style.display = "none";
+              textsList[1].style.display = "block";
+            }
+          }
+        } else if (type === "back") {
+          for (let i = 1; i < slidesLength; i++) {
+            if (textsList[i].style.display === "block") {
+              textsList[i].style.display = "none";
+              textsList[i - 1].style.display = "block";
+            }
+          }
+          if (textsList[0].style.display === "block") {
+            textsList[0].style.display = "none";
+            textsList[slidesCount].style.display = "block";
+          }
+        }
+      };
+
+      buttonBack.addEventListener("click", () => {
+        moveSlides("back");
+        moveTexts("back")});
+
+      buttonNext.addEventListener("click", () => { 
+        moveSlides("next"); 
+        moveTexts("next");
+      });
+
+      // FORM VALIDATION
+
+      const inputValidate = document.querySelectorAll(".input-validate");
+      const selectValidate = document.querySelectorAll(".select-validate");
+      const formButton = document.querySelector("#buttonForm");
+      const inputsLength = inputValidate.length;
+      const selectsLength = selectValidate.length
+      
+ 
+      const validateInputForm = () => {
+        for (let i = 0; i < inputsLength; i++) {
+          const input = document.querySelector(`#input-${i + 1}`);
+          const error = document.querySelector(`#error-${i + 1}`);
+          if (!input.value ) {
+            error.style.display = "block";
+          } else if (input.value) {
+            error.style.display = "none";
+          }
+        }
+      };
+
+      const validateSelectForm = () => {
+        for (let i = 0; i < selectsLength; i++) {
+          const select = document.querySelector(`#select-${i + 1}`);
+          const selectError = document.querySelector(`#selectError-${i + 1}`);
+          if (!select.value ) {
+            selectError.style.display = "block";
+          } else if (select.value) {
+            selectError.style.display = "none";
+          }
+        }
+      };
+     
+      formButton.addEventListener("click", () => {
+        validateInputForm();
+        validateSelectForm();
+      });
+
+      const buttonNewsletter = document.querySelector("#buttonNewsletter")
+      const inputNewsletter = document.querySelector("#inputNewsletter");
+      const errorNewsletter = document.querySelector("#errorNewsletter");
+
+      const validateNewsletter = () => {
+
+        !inputNewsletter.value ? errorNewsletter.style.display = "block" : errorNewsletter.style.display = "none";
+      }
+
+      buttonNewsletter.addEventListener("click", () => validateNewsletter())
+
+      // INPUT & SELECT VALIDATION
+
+      const inputName = document.querySelector("#input-1");
+      const errorName = document.querySelector("#error-1");
+      const inputMail = document.querySelector("#input-2");
+      const errorMail = document.querySelector("#error-2");
+      const inputPhone = document.querySelector("#input-3");
+      const errorPhone = document.querySelector("#error-3");
+      const selectReason = document.querySelector("#select-1");
+      const errorReason = document.querySelector("#selectError-1");
+
+      const validateInput = (type) => {
+        if (type === "name") {
+          !inputName.value ? errorName.style.display = "block" : errorName.style.display = "none"
+        } else if (type === "mail") {
+          !inputMail.value ? errorMail.style.display = "block" : errorMail.style.display = "none"
+        } else if (type === "phone") {
+          !inputPhone.value ? errorPhone.style.display = "block" : errorPhone.style.display = "none"
+        } else if (type === "reason") {
+          !selectReason.value ? errorReason.style.display = "block" : errorReason.style.display = "none"
+        } else if (type === "newsletter") {
+          !inputNewsletter.value ? errorNewsletter.style.display = "block" : errorNewsletter.style.display = "none"
+        }
+      }      
+
+      inputName.addEventListener("input", () => validateInput("name"));
+      inputMail.addEventListener("input", () => validateInput("mail"));
+      inputPhone.addEventListener("input", () => validateInput("phone"));
+      selectReason.addEventListener("change", () => validateInput("reason"));
+      inputNewsletter.addEventListener("input", () => validateInput("newsletter"))
+
+      //PROJECTS
+
+      const buttonResidential = document.querySelector("#buttonResidential");
+      const buttonCommercial = document.querySelector("#buttonCommercial");
+      const buttonOther = document.querySelector("#buttonOther");
+      const residencialBox = document.querySelector("#residentialProjects");
+      const commercialBox = document.querySelector("#commercialProjects");
+      const otherBox = document.querySelector("#otherProjects");
+
+      const showProjects = (type) => {
+        if (type === "residential") {
+          residencialBox.style.display = "flex";
+          commercialBox.style.display = "none";
+          otherBox.style.display = "none";
+        } else if (type === "commercial") {
+          residencialBox.style.display = "none";
+          commercialBox.style.display = "flex";
+          otherBox.style.display = "none";
+        } else if (type === "other") {
+          residencialBox.style.display = "none";
+          commercialBox.style.display = "none";
+          otherBox.style.display = "flex";
+        }
+      };
+
+      buttonResidential.addEventListener("click", () =>
+        showProjects("residential")
+      );
+      buttonCommercial.addEventListener("click", () =>
+        showProjects("commercial")
+      );
+      buttonOther.addEventListener("click", () => showProjects("other"));
+
+      //// POPUP 
+
+      const popup = document.querySelector("#popupBox");
+      const showPopup = () => {
+        inputNewsletter.value ? popup.style.display = "flex" : popup.style.display = "none";
+      }
+
+      const buttonPopup = document.querySelector("#popupButton");
+      buttonNewsletter.addEventListener("click", () => showPopup());
+      buttonPopup.addEventListener("click", () => {
+        popup.style.display = "none"})
+    </script>
+  </body>
+</html>
+
+<!-- Attribution:
+Slideshow 1: <a href="https://pl.freepik.com/darmowe-zdjecie/woda-deszczowa-na-makro-zielony-lisc_5017036.htm#query=plants&position=41&from_view=search&track=sph">Obraz autorstwa jcomp</a> na Freepik 
+Slideshow 2: https://img.freepik.com/free-photo/green-leaf-texture-leaf-texture-background_501050-120.jpg?w=996&t=st=1671716276~exp=1671716876~hmac=387c1eeff6d5f6b1addbce5748db8efc9ac4b8131e987baf95da5ab3c0be4f93
+sLIDESHOW 3: https://img.freepik.com/free-photo/closeup-shot-small-green-leaves-bush_181624-30311.jpg?w=996&t=st=1671716344~exp=1671716944~hmac=392e8d1eb7a3cba963756b53a8ff694cbd55fa58c0ae641cc3413f927a23c992
+best services icons:
+https://cdn-icons-png.flaticon.com/512/1253/1253735.png?w=826&t=st=1671528740~exp=1671529340~hmac=8696a401bea0dfb0f7d4ca9794ec35227be83f1d33bf3e72e60a9ab8536db892
+https://cdn-icons-png.flaticon.com/512/809/809102.png?w=826&t=st=1671529046~exp=1671529646~hmac=1561f0ede25e934b1d1dfb0d5c70d90c52f4b651ac384eee82a734ccfd7335ba
+https://cdn-icons-png.flaticon.com/512/1245/1245140.png?w=826&t=st=1671529135~exp=1671529735~hmac=e378cf6fd817c0ef657b3e25ea30b4b3f1494bdc84df158c8ee1470ad5e352b8
+
+garndener photo : https://img.freepik.com/darmowe-zdjecie/szczesliwy-mlody-przystojny-ogrodnik-slowianski-w-mundurze-i-kapeluszu-trzymajac-kwiat-i-sekatory-patrzac-na-bialym-tle_141793-68627.jpg?w=1060&t=st=1671529544~exp=1671530144~hmac=43b817007be1b5eb6a15b30631d7403f690ad59858888a8384bd681ee7ab95d0
+
+services:
+1-https://cdn-icons-png.flaticon.com/512/1254/1254022.png?w=826&t=st=1671531589~exp=1671532189~hmac=d4203c88020166c82321eb810f7bd3f48fc7807658c68179d17635829368c9db
+2-https://cdn-icons-png.flaticon.com/512/25/25603.png?w=826&t=st=1671531633~exp=1671532233~hmac=1fab83087bddf74f030f404fb86abb194678b4c4a576be9bfa0da32f7b48eb0e
+3-https://cdn-icons-png.flaticon.com/512/991/991927.png?w=826&t=st=1671531725~exp=1671532325~hmac=208806c79fe8c2d1904ec71074dbfc33e7716b49ebcea301e65d4b64a80de2f7 
+4-https://cdn-icons-png.flaticon.com/512/1073/1073866.png?w=826&t=st=1671531800~exp=1671532400~hmac=038a3d25d6f15bb6c0a436c7f5bcf282ab48709daf50d7a3f529e66a03858e76
+5-https://cdn-icons-png.flaticon.com/512/1073/1073884.png?w=826&t=st=1671531833~exp=1671532433~hmac=ed8b6a464e996d5eaa2fa9b67770fb2a982a259da9d085ca7b4db9baa9578052
+6-https://cdn-icons-png.flaticon.com/512/1073/1073867.png?w=826&t=st=1671531874~exp=1671532474~hmac=a7c447833ee9f9964c6537bcffc01d90496b1146fa65df7f1700f3211dbd8ffa
+
+experience icons:
+1. https://cdn-icons-png.flaticon.com/512/1200/1200706.png?w=826&t=st=1672139713~exp=1672140313~hmac=5d8eaf625ef525b1dc9ce08c3f1201e212b5b70f6448f4233522046be8ee2df5
+2. https://cdn-icons-png.flaticon.com/512/989/989004.png?w=826&t=st=1672139824~exp=1672140424~hmac=f305f71921da1c611a6cdae1c2f467c7c571bd8d12a6591fdf808da1a93f10c8
+3: https://cdn-icons-png.flaticon.com/512/667/667174.png?w=826&t=st=1672139923~exp=1672140523~hmac=d1b72ad0e8d33d4b84ba8608a638e69048bf0cedd9ca7a13d18270fc93d7453b
+4. https://cdn-icons-png.flaticon.com/512/1253/1253760.png?w=826&t=st=1672140111~exp=1672140711~hmac=2189c2046ead26728130e23a34d3c3bc5dc1806dcf15a3b34cbca9298f68727f
+
+consultation background:
+https://img.freepik.com/free-photo/tropical-green-leaves-background_53876-88891.jpg?w=1380&t=st=1672226946~exp=1672227546~hmac=0f07e84370b311106c2b1faaf68392b98d10d944c15ea2331e7a7212c2ab0c8a
+
+
+projects:
+https://img.freepik.com/darmowe-zdjecie/kolorowy-kwiat-w-ogrodzie_1373-544.jpg?w=1380&t=st=1672309933~exp=1672310533~hmac=e9e8cc44b41fd77fc78ce62a79f93f07dcda9a928c8a02376df07718050b26b2 
+https://img.freepik.com/darmowe-zdjecie/szklana-szklarnia_53876-30188.jpg?w=1380&t=st=1672310315~exp=1672310915~hmac=b0d47461899b89dc0eb85be8fa30e11a9f7773a56e7a4fb4bca07f994cca860a
+https://img.freepik.com/darmowe-zdjecie/sciezka_74190-2125.jpg?w=1380&t=st=1672310393~exp=1672310993~hmac=f20b0b4f177c24cfa45651a9542a2170c03716d24789784070e9bff29686b3d6
+https://img.freepik.com/darmowe-zdjecie/piekny-nowoczesny-dom-w-cementie-widok-z-ogrodu_1127-3209.jpg?w=1380&t=st=1672310423~exp=1672311023~hmac=b66a79f60f30f5ec315272a3dccbebd85f20fada07847dc2fa2d54dab62d784f
+https://img.freepik.com/darmowe-zdjecie/krajobrazu-trawiasta-i-zielonka-rodowiska-parku-tle_1112-1177.jpg?w=1380&t=st=1672310521~exp=1672311121~hmac=b22c76f07c35a079fcc80e7cb15936acc2c2fa34aa0075fb988754afb4455c02
+https://img.freepik.com/darmowe-zdjecie/kwiaty-ogrodowe-ogrod-mae-fah-luang-zlokalizuj-na-doi-tung-w-chiang-rai-w-tajlandii_335224-968.jpg?w=1380&t=st=1672310612~exp=1672311212~hmac=0708f5144da78e1ff470f46041db0e1c1728ea4c8dd83d3e0fd9df5104cfb4da
+https://img.freepik.com/darmowe-zdjecie/park-z-drewnianym-sciezki-i-lawki_1137-254.jpg?w=1380&t=st=1672310653~exp=1672311253~hmac=19eb07540d105e6c11d80c9aa5adbf211e6d6418d584fef268a6348840913712
+https://img.freepik.com/darmowe-zdjecie/wschod-slonca-w-pieknym-parku_1127-2834.jpg?w=1380&t=st=1672310708~exp=1672311308~hmac=68b8f5d6c56a548a09fd2d06ec4ec0a0dfe372e0727e55f23895a015d675be3b
+https://img.freepik.com/free-photo/beautiful-japanese-garden_23-2149359701.jpg?w=1380&t=st=1672490360~exp=1672490960~hmac=cdf1ed6259d31a55d629a6d1ec6a5346efa609371c09edc4ee54bc2a8b4aadad
+https://img.freepik.com/free-photo/outdoor-patio-decoration-with-char-table_74190-6666.jpg?w=1380&t=st=1672490431~exp=1672491031~hmac=2f59130b3d8b00171f25295b43d369f12716c2fe191485bcf39a35539d70ea15
+https://img.freepik.com/free-photo/chinese-garden-n-zurich_1112-1146.jpg?w=1380&t=st=1672490542~exp=1672491142~hmac=307dd51e29587d6f56a021c9f7e7c9409df39ea784f8da1174f068f0747737d7
+https://img.freepik.com/free-photo/footpath-beautiful-arch-flowers-plants_181624-16890.jpg?w=1380&t=st=1672490567~exp=1672491167~hmac=b7811bcf0fe0d8c8b28a9d7c10c8a4410389d0c75a90f6f54b97ca14e4372ffa
+https://img.freepik.com/free-photo/china-old-garden_1127-3642.jpg?w=1380&t=st=1672491384~exp=1672491984~hmac=fd4e23baefdebe4cf879c14db9f0852dd10c530ad1ffaa537a9dbb4c7c9894c0
+
+popup:
+https://img.freepik.com/free-vector/sprout-concept-illustration_114360-6725.jpg?w=826&t=st=1672750598~exp=1672751198~hmac=c1d6374baf484738b1070adaf1f034b47f790045525733c257cabeab61e56002
