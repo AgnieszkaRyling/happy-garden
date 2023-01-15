@@ -20,6 +20,10 @@ a {
   color: #000;
 }
 
+li {
+  list-style: none;
+}
+
 button {
   cursor: pointer;
   font-size: 20px;
@@ -129,6 +133,10 @@ body {
   border-left: 4px solid #e88800;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 .error-text {
   color: #fff;
 }
@@ -194,7 +202,7 @@ body {
 /* HEADER */
 
 .navbar-container {
-  width: 100%;
+  max-width: 1440px;
   height: 80px;
   padding: 10px;
   display: flex;
@@ -208,8 +216,6 @@ body {
 }
 
 .links-list {
-  /* KOMENTARZ: list-style lepiej na górze do normalizacji */
-  list-style: none;
   display: flex;
   gap: 20px;
   padding: 10px;
@@ -314,7 +320,7 @@ body {
 }
 
 .section-hero {
-  width: 100%;
+  max-width: 1440px;
   height: 500px;
   position: relative;
   /* KOMENTARZ: margin-bottom to dobre oddzielenie w pionie */
@@ -368,7 +374,7 @@ body {
 /* reputation */
 
 .reputation-container {
-  width: 100%;
+  max-width: 1440px;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -417,6 +423,7 @@ body {
 /* ABOUT US */
 
 .section-about {
+  max-width: 1440px;
   position: relative;
 }
 
@@ -502,7 +509,7 @@ body {
 /* SERVICES */
 
 .section-services {
-  width: 100%;
+  max-width: 1440px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -511,7 +518,7 @@ body {
 }
 
 .services-container {
-  width: 60%;
+  width: 80%;
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -556,7 +563,7 @@ body {
 /* EXPERIENCE */
 
 .section-experience {
-  width: 100%;
+  max-width: 1440px;
   display: flex;
   justify-content: space-around;
 }
@@ -669,7 +676,7 @@ body {
 
 /* consultation*/
 .section-consultation {
-  width: 100%;
+  max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -824,7 +831,7 @@ body {
 /* FORM */
 
 .section-form {
-  width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -891,7 +898,7 @@ body {
 /* FOOTER */
 
 .footer-container {
-  width: 100%;
+  max-width: 1440px;
   background-color: #f3b967;
   display: flex;
   justify-content: space-around;
