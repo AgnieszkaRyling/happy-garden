@@ -1,4 +1,4 @@
-# happy-garden landing oage
+# happy-garden landing page
 #technologies:
 #html
 #css
